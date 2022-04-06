@@ -31,7 +31,6 @@ public class ThreadTime {
     	while(true) {
 	      try {
 	       Thread.sleep(delai);
-	       System.out.println("\f");
 	       System.out.print(df.format(new Date()));	      
 	      } catch (InterruptedException e) {
 	        e.printStackTrace();
