@@ -1,13 +1,13 @@
 import java.util.Scanner;
 //Exercice 1.2 gestion d'une erreur de saisie, je n'ai pas reussis à gérer le java.lang.StackOverflowError
 public class FactorielExepction {
-	public static long fact(long n) {
+	public static long fact(long n){
 		
 		if( n <= 0) {
 			return 1;
 			}
 		else {
-			return n*fact(n -1);//appel récursif
+			return n*fact(n -1) ;//appel récursif
 		}
 	}
 
